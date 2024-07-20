@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffb703;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+   
+    
+}
+.container{
+    background-color: #FAF9F6;
+    
+  
+    padding: 2rem;
+    min-height: 45vh;
+    width: 40vh;
+    
+}
+form{ 
+    
+    margin: 2rem 0 2rem 0 ;
+
+}
+form select,input,button{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+form input{
+    border: 1px solid gray;
+    height: 2rem;
+    padding-left: .75rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+   
+}
+.select-container img {
+    width: 2rem;
+}
+.select-container{
+   
+    display: flex;
+    width: 6rem;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown i{
+   
+    font-size: 1.5rem;
+    color:gray;
+
+    
+}
+.msg{
+    margin-top: 2rem;
+
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+}
+form button{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    background-color: #8ecae6;
+    cursor: pointer;
+
+}
